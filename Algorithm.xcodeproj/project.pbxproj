@@ -13,6 +13,7 @@
 		9A8B93251D3E26B3005B8352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B93231D3E26B3005B8352 /* Main.storyboard */; };
 		9A8B93271D3E26B3005B8352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B93261D3E26B3005B8352 /* Assets.xcassets */; };
 		9A8B932A1D3E26B3005B8352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8B93281D3E26B3005B8352 /* LaunchScreen.storyboard */; };
+		9A8B93331D3E26CB005B8352 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B93321D3E26CB005B8352 /* Algorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9A8B93261D3E26B3005B8352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A8B93291D3E26B3005B8352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A8B932B1D3E26B3005B8352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A8B93311D3E26CB005B8352 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		9A8B93321D3E26CB005B8352 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		9A8B93191D3E26B3005B8352 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9A8B93311D3E26CB005B8352 /* Algorithm.h */,
+				9A8B93321D3E26CB005B8352 /* Algorithm.m */,
 				9A8B931D1D3E26B3005B8352 /* AppDelegate.h */,
 				9A8B931E1D3E26B3005B8352 /* AppDelegate.m */,
 				9A8B93201D3E26B3005B8352 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8B93221D3E26B3005B8352 /* ViewController.m in Sources */,
+				9A8B93331D3E26CB005B8352 /* Algorithm.m in Sources */,
 				9A8B931F1D3E26B3005B8352 /* AppDelegate.m in Sources */,
 				9A8B931C1D3E26B3005B8352 /* main.m in Sources */,
 			);
