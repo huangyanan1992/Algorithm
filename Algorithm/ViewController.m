@@ -22,9 +22,4 @@
     NSLog(@"%@",[Algorithm addBigNumbers:lhsSource rhs:rhsSource]);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
